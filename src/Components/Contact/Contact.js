@@ -5,33 +5,26 @@ import emailjs from '@emailjs/browser';
 const Contact = () => {
     const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    emailjs.sendForm('service_bhbhwou', 'template_q2adnxr', form.current, '2xuHskKcEqF20DAEp')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset();
-  };
+        emailjs.sendForm('service_bhbhwou', 'template_q2adnxr', form.current, '2xuHskKcEqF20DAEp')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset();
+    };
     return (
-        <section class="py-30 lg:py-[90px] overflow-hidden relative z-10 px-2 lg:px-28 max-h-screen">
+        <section class="py-30 lg:py-[120px]  overflow-hidden pt-24 relative z-10 px-2 lg:px-28 lg:max-h-screen">
             <div class="container">
-                <h2
-                    class="text-center
-                          text-pink-700
-                          mb-10
-                          uppercase
-                          font-bold
-                          text-[32px]
-                                                    "
-                >
-                    GET IN TOUCH WITH US
+                <p className="text-center leading-relaxed text-base uppercase text-pink-700 font-bold">Contact me</p>
+                <h2 class="text-center text-white mb-6 uppercase font-bold text-[32px]">
+                    GET IN TOUCH WITH me
                 </h2>
                 <div class="flex flex-wrap lg:justify-between">
-                    <div class="w-full lg:w-1/2 xl:w-5/12 mx-auto px-4 shadow-lg shadow-gray-900  rounded">
+                    <div class="w-full lg:w-1/2 xl:w-5/12 mb-24 px-4 mx-12 lg:mx-0 shadow-lg shadow-slate-800  rounded">
                         <div class="max-w-[570px]">
                             <div class="flex mb-8 max-w-[370px] w-full pt-16">
                                 <div
@@ -110,8 +103,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div class="flex max-w-[370px] w-full">
-                                <div
-                                    class="
+                                <div  class="
                              max-w-[60px]
                              sm:max-w-[70px]
                              w-full
@@ -125,17 +117,9 @@ const Contact = () => {
                              bg-primary bg-opacity-5
                              text-primary
                              rounded
-                             "
-                                >
-                                    <svg
-                                        width="28"
-                                        height="19"
-                                        viewBox="0 0 28 19"
-                                        class="fill-current text-pink-700"
-                                    >
-                                        <path
-                                            d="M25.3636 0H2.63636C1.18182 0 0 1.16785 0 2.6052V16.3948C0 17.8322 1.18182 19 2.63636 19H25.3636C26.8182 19 28 17.8322 28 16.3948V2.6052C28 1.16785 26.8182 0 25.3636 0ZM25.3636 1.5721C25.5909 1.5721 25.7727 1.61702 25.9545 1.75177L14.6364 8.53428C14.2273 8.75886 13.7727 8.75886 13.3636 8.53428L2.04545 1.75177C2.22727 1.66194 2.40909 1.5721 2.63636 1.5721H25.3636ZM25.3636 17.383H2.63636C2.09091 17.383 1.59091 16.9338 1.59091 16.3499V3.32388L12.5 9.8818C12.9545 10.1513 13.4545 10.2861 13.9545 10.2861C14.4545 10.2861 14.9545 10.1513 15.4091 9.8818L26.3182 3.32388V16.3499C26.4091 16.9338 25.9091 17.383 25.3636 17.383Z"
-                                        />
+                             ">
+                                    <svg width="28" height="19" viewBox="0 0 28 19" class="fill-current text-pink-700" >
+                                        <path d="M25.3636 0H2.63636C1.18182 0 0 1.16785 0 2.6052V16.3948C0 17.8322 1.18182 19 2.63636 19H25.3636C26.8182 19 28 17.8322 28 16.3948V2.6052C28 1.16785 26.8182 0 25.3636 0ZM25.3636 1.5721C25.5909 1.5721 25.7727 1.61702 25.9545 1.75177L14.6364 8.53428C14.2273 8.75886 13.7727 8.75886 13.3636 8.53428L2.04545 1.75177C2.22727 1.66194 2.40909 1.5721 2.63636 1.5721H25.3636ZM25.3636 17.383H2.63636C2.09091 17.383 1.59091 16.9338 1.59091 16.3499V3.32388L12.5 9.8818C12.9545 10.1513 13.4545 10.2861 13.9545 10.2861C14.4545 10.2861 14.9545 10.1513 15.4091 9.8818L26.3182 3.32388V16.3499C26.4091 16.9338 25.9091 17.383 25.3636 17.383Z" />
                                     </svg>
                                 </div>
                                 <div class="w-full">
@@ -146,7 +130,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div>
-                                <span class="inline-flex mt-12 px-40">
+                                <span class="inline-flex mt-10 px-48 mb-10">
                                     <Link to="/" class="text-pink-700 border-2 border-pink-700 p-2">
                                         <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                                             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
@@ -173,8 +157,8 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="w-full lg:w-1/2 xl:w-5/12 mx-auto px-4">
-                        <div class="relative sm:p-8 lg:p-12 shadow-gray-900 rounded shadow-lg">
+                    <div class="w-full lg:w-1/2 xl:w-5/12 mx-12 lg:mx-0 mb-12 mt-12 lg:mt-0">
+                        <div class="relative p-8 lg:p-12 shadow-slate-800   rounded shadow-lg">
                             <form ref={form} onSubmit={sendEmail}>
                                 <div class="mb-3">
                                     <input
