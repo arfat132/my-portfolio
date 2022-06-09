@@ -1,7 +1,21 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_bhbhwou', 'template_q2adnxr', form.current, '2xuHskKcEqF20DAEp')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
     return (
         <section class="py-30 lg:py-[90px] overflow-hidden relative z-10 px-2 lg:px-28 max-h-screen">
             <div class="container">
@@ -19,7 +33,6 @@ const Contact = () => {
                 <div class="flex flex-wrap lg:justify-between">
                     <div class="w-full lg:w-1/2 xl:w-5/12 mx-auto px-4 shadow-lg shadow-gray-900  rounded">
                         <div class="max-w-[570px]">
-
                             <div class="flex mb-8 max-w-[370px] w-full pt-16">
                                 <div
                                     class="
@@ -162,9 +175,10 @@ const Contact = () => {
                     </div>
                     <div class="w-full lg:w-1/2 xl:w-5/12 mx-auto px-4">
                         <div class="relative sm:p-8 lg:p-12 shadow-gray-900 rounded shadow-lg">
-                            <form>
+                            <form ref={form} onSubmit={sendEmail}>
                                 <div class="mb-3">
                                     <input
+                                        name="name"
                                         type="text"
                                         placeholder="Your Name"
                                         class="
@@ -184,6 +198,7 @@ const Contact = () => {
                                 </div>
                                 <div class="mb-3">
                                     <input
+                                        name="email"
                                         type="email"
                                         placeholder="Your Email"
                                         class="
@@ -203,8 +218,9 @@ const Contact = () => {
                                 </div>
                                 <div class="mb-3">
                                     <input
+                                        name="phonr"
                                         type="text"
-                                        placeholder="Your Phone"
+                                        placeholder="Your Phone (optional)"
                                         class="
                                 w-full
                                 rounded
@@ -222,6 +238,7 @@ const Contact = () => {
                                 </div>
                                 <div class="mb-3">
                                     <textarea
+                                        name="message"
                                         rows="5"
                                         placeholder="Your Message"
                                         class="
