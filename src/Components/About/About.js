@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { GoCloudDownload } from 'react-icons/go';
 const About = () => {
     return (
-        <section class="body-font overflow-hidden bg-opacity-92 lg:max-h-screen lg:pt-12 pt-0">
+        <section class="body-font overflow-hidden bg-opacity-92 lg:max-h-screen lg:pt-12 pt-0 bg-[#090119]">
             <div class="container py-36 mx-auto">
                 <div class="lg:w-4/5 mx-auto flex flex-wrap-reverse lg:flex-nowrap">
                     <div class="lg:w-1/2 w-full lg:py-6 mb-6 lg:mb-0 px-8 lg:px-0">

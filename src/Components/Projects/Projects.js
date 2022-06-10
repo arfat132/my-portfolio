@@ -1,13 +1,14 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper";
 import "./styles.css";
+
 const Projects = () => {
     return (
-        <div className="pt-28 lg:max-h-screen">
+        <div className="pt-28 lg:max-h-screen bg-[#090119]">
             <p className="text-center leading-relaxed text-base uppercase text-pink-700  font-bold">Projects</p>
             <h2 class="text-center text-white uppercase font-bold text-[32px]">
                 My recent works
@@ -30,101 +31,67 @@ const Projects = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                    <div className="h-full shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
+                        <div className="shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
                             <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/R27zXsw/Screenshot-2.jpg" alt="blog" />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">React Tailwind Firebase Express MongoDB</h2>
                                 <a href="https://core-realtor-auth.web.app/" className="title-font text-xl font-bold text-pink-700 underline">Core Realator</a>
                                 <p className="leading-relaxed my-4 text-white">This is a realtor independent website. In this website a realtor provides 3 services.</p>
-                                <button className="mt-2 bg-pink-800 text-white px-6 py-3 rounded-lg uppercase">Details</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase">Live site</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase ml-3">Client side</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase ml-3">Server side</button>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="h-full shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
+                        <div className="shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
                             <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/R27zXsw/Screenshot-2.jpg" alt="blog" />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">React Tailwind Firebase Express MongoDB</h2>
                                 <a href="https://core-realtor-auth.web.app/" className="title-font text-xl font-bold text-pink-700 underline">Core Realator</a>
                                 <p className="leading-relaxed my-4 text-white">This is a realtor independent website. In this website a realtor provides 3 services.</p>
-                                <button className="mt-2 bg-pink-800 text-white px-6 py-3 rounded-lg uppercase">Details</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase">Live site</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase ml-3">Client side</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase ml-3">Server side</button>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className="h-full shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
+                        <div className="shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
                             <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/R27zXsw/Screenshot-2.jpg" alt="blog" />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">React Tailwind Firebase Express MongoDB</h2>
                                 <a href="https://core-realtor-auth.web.app/" className="title-font text-xl font-bold text-pink-700 underline">Core Realator</a>
                                 <p className="leading-relaxed my-4 text-white">This is a realtor independent website. In this website a realtor provides 3 services.</p>
-                                <button className="mt-2 bg-pink-800 text-white px-6 py-3 rounded-lg uppercase">Details</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase">Live site</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase ml-3">Client side</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase ml-3">Server side</button>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className="h-full shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
+                        <div className="shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
                             <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/R27zXsw/Screenshot-2.jpg" alt="blog" />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">React Tailwind Firebase Express MongoDB</h2>
                                 <a href="https://core-realtor-auth.web.app/" className="title-font text-xl font-bold text-pink-700 underline">Core Realator</a>
                                 <p className="leading-relaxed my-4 text-white">This is a realtor independent website. In this website a realtor provides 3 services.</p>
-                                <button className="mt-2 bg-pink-800 text-white px-6 py-3 rounded-lg uppercase">Details</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase">Live site</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase ml-3">Client side</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase ml-3">Server side</button>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className="h-full shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
+                        <div className="shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
                             <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/R27zXsw/Screenshot-2.jpg" alt="blog" />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">React Tailwind Firebase Express MongoDB</h2>
                                 <a href="https://core-realtor-auth.web.app/" className="title-font text-xl font-bold text-pink-700 underline">Core Realator</a>
                                 <p className="leading-relaxed my-4 text-white">This is a realtor independent website. In this website a realtor provides 3 services.</p>
-                                <button className="mt-2 bg-pink-800 text-white px-6 py-3 rounded-lg uppercase">Details</button>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    <div className="h-full shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
-                            <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/R27zXsw/Screenshot-2.jpg" alt="blog" />
-                            <div className="p-6">
-                                <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">React Tailwind Firebase Express MongoDB</h2>
-                                <a href="https://core-realtor-auth.web.app/" className="title-font text-xl font-bold text-pink-700 underline">Core Realator</a>
-                                <p className="leading-relaxed my-4 text-white">This is a realtor independent website. In this website a realtor provides 3 services.</p>
-                                <button className="mt-2 bg-pink-800 text-white px-6 py-3 rounded-lg uppercase">Details</button>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    <div className="h-full shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
-                            <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/R27zXsw/Screenshot-2.jpg" alt="blog" />
-                            <div className="p-6">
-                                <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">React Tailwind Firebase Express MongoDB</h2>
-                                <a href="https://core-realtor-auth.web.app/" className="title-font text-xl font-bold text-pink-700 underline">Core Realator</a>
-                                <p className="leading-relaxed my-4 text-white">This is a realtor independent website. In this website a realtor provides 3 services.</p>
-                                <button className="mt-2 bg-pink-800 text-white px-6 py-3 rounded-lg uppercase">Details</button>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    <div className="h-full shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
-                            <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/R27zXsw/Screenshot-2.jpg" alt="blog" />
-                            <div className="p-6">
-                                <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">React Tailwind Firebase Express MongoDB</h2>
-                                <a href="https://core-realtor-auth.web.app/" className="title-font text-xl font-bold text-pink-700 underline">Core Realator</a>
-                                <p className="leading-relaxed my-4 text-white">This is a realtor independent website. In this website a realtor provides 3 services.</p>
-                                <button className="mt-2 bg-pink-800 text-white px-6 py-3 rounded-lg uppercase">Details</button>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    <div className="h-full shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
-                            <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/R27zXsw/Screenshot-2.jpg" alt="blog" />
-                            <div className="p-6">
-                                <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">React Tailwind Firebase Express MongoDB</h2>
-                                <a href="https://core-realtor-auth.web.app/" className="title-font text-xl font-bold text-pink-700 underline">Core Realator</a>
-                                <p className="leading-relaxed my-4 text-white">This is a realtor independent website. In this website a realtor provides 3 services.</p>
-                                <button className="mt-2 bg-pink-800 text-white px-6 py-3 rounded-lg uppercase">Details</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase">Live site</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase ml-3">Client side</button>
+                                <button className="mt-2 border border-pink-700 text-pink-700 px-4 py-2 rounded-lg uppercase ml-3">Server side</button>
                             </div>
                         </div>
                     </SwiperSlide>

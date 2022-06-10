@@ -23,9 +23,10 @@ const Navbar = () => {
                 <ul class="menu menu-horizontal p-0 text-lg uppercase">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
+                    <li><Link to="/services">Services</Link></li>
                     <li><Link to="/projects">Projects</Link></li>
                     <li><Link to="/contact">Contact me</Link></li>
-                    <li>  <button> <a href="https://drive.google.com/uc?id=1Yr48N1H5T5-aJkeI3rqARSq7WTRpXQWO&export=download" download className='flex items-center border border-1 border-pink-700 px-6 py-2 text-pink-700'>DownLoad Resume<GoCloudDownload className='ml-3' /></a></button></li>
+                    <li>  <button> <a href="https://drive.google.com/uc?id=1Yr48N1H5T5-aJkeI3rqARSq7WTRpXQWO&export=download" download className='flex items-center border border-1 border-pink-700 px-2 py-2 text-pink-700'>DownLoad Resume<GoCloudDownload className='ml-3' /></a></button></li>
                 </ul>
             </div>
         </div>
