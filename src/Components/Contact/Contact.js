@@ -55,9 +55,9 @@ const Contact = () => {
                                     </svg>
                                 </div>
                                 <div class="w-full">
-                                    <h4 class="font-bold text-pink-700 text-xl mb-1">Our Location</h4>
+                                    <h4 class="font-bold text-pink-700 text-xl mb-1">Location</h4>
                                     <p class="text-white text-body-color">
-                                        99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                                        Jeddah, Saudi Arabia
                                     </p>
                                 </div>
                             </div>
@@ -98,7 +98,7 @@ const Contact = () => {
                                 </div>
                                 <div class="w-full">
                                     <h4 class="font-bold text-pink-700 text-xl mb-1">Phone Number</h4>
-                                    <p class="text-white text-body-color">(+62)81 414 257 9980</p>
+                                    <p class="text-white text-body-color">+966567319348</p>
                                 </div>
                             </div>
                             <div class="flex max-w-[370px] w-full">
@@ -125,11 +125,11 @@ const Contact = () => {
                                     <h4 class="font-bold text-pink-700 text-xl mb-1">
                                         Email Address
                                     </h4>
-                                    <p class="text-white text-body-color">info@yourdomain.com</p>
+                                    <p class="text-white text-body-color">arfatakter39@gmail.com</p>
                                 </div>
                             </div>
                             <div>
-                                <span class="inline-flex mt-10 px-48 mb-10">
+                                <span class="inline-flex mt-10 px-40 mb-10">
                                     <Link to="/" class="text-pink-700 border-2 border-pink-700 p-2">
                                         <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                                             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
