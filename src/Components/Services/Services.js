@@ -8,7 +8,7 @@ import { AiOutlineApi } from 'react-icons/ai';
 const Services = () => {
     return (
         <section class="text-white body-font bg-[#090119] lg:min-h-screen">
-            <div class="px-24 pr-28 lg:pr-36 pt-10 mx-auto ">
+            <div class="px-14 lg:px-24 pr-28 lg:pr-36 pt-10 mx-auto ">
                 <p className="text-center leading-relaxed text-base uppercase text-pink-700 font-bold mb-4 animate__animated animate__zoomIn animate__slow">Services</p>
                 <h2 class="text-center text-white mb-14 uppercase font-bold text-2xl md:text-3xl lg:text-[32px] animate__animated animate__zoomIn animate__slow">
                     What services I provide

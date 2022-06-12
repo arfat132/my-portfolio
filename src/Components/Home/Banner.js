@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 const Banner = () => {
     return (
-        <div class="-z-50 hero min-w-screen min-h-screen bg-[url(https://i.ibb.co/HV63Lv9/12-min.jpg)]">
+        <div class="-z-50 hero min-w-screen min-h-screen bg-[url(https://i.ibb.co/GpD9cKS/bann.png)]">
             <div class="hero-content text-center text-neutral-content w-full">
                 <div>
                     <h1 className='text-xl lg:text-2xl text-white font-medium animate__animated animate__fadeInDown animate__slow'>Hello</h1>

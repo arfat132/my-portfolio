@@ -31,7 +31,7 @@ const MySkills = () => {
                     </div>
                     <div className="p-4 md:w-1/5 sm:w-1/2 w-full animate__animated animate__zoomIn animate__slow">
                         <div className="rounded-lg shadow-md border-t  border-t-pink-700 shadow-pink-700">
-                            <img className='mx-auto w-36' src="https://i.ibb.co/m4jBmq8/bootstrap.png" alt="" srcSet="" />
+                            <img className='mx-auto w-36' src="https://i.ibb.co/7kwtd7L/bt.png" alt="" srcSet="" />
                             <p className="leading-relaxed font-bold text-xl -mt-3 pb-3">BOOTSTRAP</p>
                         </div>
                     </div>
@@ -67,8 +67,20 @@ const MySkills = () => {
                     </div>
                     <div className="p-4 md:w-1/5 sm:w-1/2 w-full animate__animated animate__zoomIn animate__slow">
                         <div className="rounded-lg shadow-md border-t  border-t-pink-700 shadow-pink-700">
-                            <img className='mx-auto w-36' src="https://i.ibb.co/Wk8XPWr/figma.png" alt="" srcSet="" />
+                            <img className='mx-auto w-36' src="https://i.ibb.co/kmkq29P/express.png" alt="" srcSet="" />
+                            <p className="leading-relaxed font-bold text-xl -mt-3 pb-3">Express JS</p>
+                        </div>
+                    </div>
+                    <div className="p-4 md:w-1/5 sm:w-1/2 w-full animate__animated animate__zoomIn animate__slow">
+                        <div className="rounded-lg shadow-md border-t  border-t-pink-700 shadow-pink-700">
+                            <img className='mx-auto w-36' src="https://i.ibb.co/DYcL9gP/s.png" alt="" srcSet="" />
                             <p className="leading-relaxed font-bold text-xl -mt-3 pb-3">FIGMA</p>
+                        </div>
+                    </div>
+                    <div className="p-4 md:w-1/5 sm:w-1/2 w-full animate__animated animate__zoomIn animate__slow">
+                        <div className="rounded-lg shadow-md border-t  border-t-pink-700 shadow-pink-700">
+                            <img className='mx-auto w-36' src="https://i.ibb.co/RTdppZG/firebase.png" alt="" srcSet="" />
+                            <p className="leading-relaxed font-bold text-xl -mt-3 pb-3">Firebase</p>
                         </div>
                     </div>
                     <div className="p-4 md:w-1/5 sm:w-1/2 w-full animate__animated animate__zoomIn animate__slow">
@@ -79,26 +91,14 @@ const MySkills = () => {
                     </div>
                     <div className="p-4 md:w-1/5 sm:w-1/2 w-full animate__animated animate__zoomIn animate__slow">
                         <div className="rounded-lg shadow-md border-t  border-t-pink-700 shadow-pink-700">
-                            <img className='mx-auto w-36' src="https://i.ibb.co/Wk8XPWr/figma.png" alt="" srcSet="" />
-                            <p className="leading-relaxed font-bold text-xl -mt-3 pb-3">FIGMA</p>
+                            <img className='mx-auto w-36' src="https://i.ibb.co/dkqW9ZY/ph.png" alt="" srcSet="" />
+                            <p className="leading-relaxed font-bold text-xl -mt-3 pb-3">Illustrator</p>
                         </div>
                     </div>
                     <div className="p-4 md:w-1/5 sm:w-1/2 w-full animate__animated animate__zoomIn animate__slow">
                         <div className="rounded-lg shadow-md border-t  border-t-pink-700 shadow-pink-700">
-                            <img className='mx-auto w-36' src="https://i.ibb.co/Wk8XPWr/figma.png" alt="" srcSet="" />
-                            <p className="leading-relaxed font-bold text-xl -mt-3 pb-3">FIGMA</p>
-                        </div>
-                    </div>
-                    <div className="p-4 md:w-1/5 sm:w-1/2 w-full animate__animated animate__zoomIn animate__slow">
-                        <div className="rounded-lg shadow-md border-t  border-t-pink-700 shadow-pink-700">
-                            <img className='mx-auto w-36' src="https://i.ibb.co/Wk8XPWr/figma.png" alt="" srcSet="" />
-                            <p className="leading-relaxed font-bold text-xl -mt-3 pb-3">FIGMA</p>
-                        </div>
-                    </div>
-                    <div className="p-4 md:w-1/5 sm:w-1/2 w-full animate__animated animate__zoomIn animate__slow">
-                        <div className="rounded-lg shadow-md border-t  border-t-pink-700 shadow-pink-700">
-                            <img className='mx-auto w-36' src="https://i.ibb.co/Wk8XPWr/figma.png" alt="" srcSet="" />
-                            <p className="leading-relaxed font-bold text-xl -mt-3 pb-3">FIGMA</p>
+                            <img className='mx-auto w-36' src="https://i.ibb.co/BG8jZrk/iii.png" alt="" srcSet="" />
+                            <p className="leading-relaxed font-bold text-xl -mt-3 pb-3">Photoshop</p>
                         </div>
                     </div>
                 </div>
