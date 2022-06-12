@@ -1,17 +1,18 @@
 import React from "react";
+import { FiExternalLink } from 'react-icons/fi';
+import { AiFillGithub } from 'react-icons/ai';
 import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectCoverflow, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import { EffectCoverflow, Pagination } from "swiper";
 import "./styles.css";
-import { FiExternalLink } from 'react-icons/fi';
-import { AiFillGithub } from 'react-icons/ai';
+
 const Projects = () => {
     return (
-        <div className="pt-28 lg:max-h-screen bg-[#090119]">
-            <p className="text-center leading-relaxed text-base uppercase text-pink-700  font-bold">Projects</p>
-            <h2 class="text-center text-white uppercase font-bold text-[32px]">
+        <div className="pt-16 lg:min-h-screen bg-[#090119]">
+            <p className="text-center leading-relaxed text-base uppercase text-pink-700 mb-4  font-bold animate__animated animate__zoomIn animate__slow">Projects</p>
+            <h2 class="text-center text-white uppercase font-bold text-2xl md:text-3xl lg:text-[32px] animate__animated animate__zoomIn animate__slow">
                 My recent works
             </h2>
             <>
@@ -88,7 +89,7 @@ const Projects = () => {
                                 </p>
                                 <div className="flex">
                                 <a href="https://github.com/arfat132/elite-convention-center" className="mt-2 text-pink-700 text-4xl uppercase"><AiFillGithub /></a>
-                                <a href="https://elite-convention-center.netlify.app/" className="mt-2 text-pink-700 text-4xl uppercase"><FiExternalLink /></a>
+                                <a href="https://elite-convention-center.netlify.app/" className="mt-2 text-pink-700 text-4xl uppercase ml-3"><FiExternalLink /></a>
                                </div>
                             </div>
                         </div>
@@ -103,7 +104,7 @@ const Projects = () => {
                                 </p>
                                 <div className="flex">
                                 <a href="https://github.com/arfat132/influencer-product" className="mt-2 text-pink-700 text-4xl uppercase"><AiFillGithub /></a>
-                                <a href="https://arfat132.github.io/influencer-product/" className="mt-2 text-pink-700 text-4xl uppercase"><FiExternalLink /></a>
+                                <a href="https://arfat132.github.io/influencer-product/" className="mt-2 text-pink-700 text-4xl uppercase ml-2"><FiExternalLink /></a>
                                </div>
                             </div>
                         </div>

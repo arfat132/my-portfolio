@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
-import { MdOutlineForwardToInbox } from 'react-icons/md';
 const Contact = () => {
     const form = useRef();
 
@@ -17,14 +16,14 @@ const Contact = () => {
         e.target.reset();
     };
     return (
-        <section class="py-30 lg:py-[120px]  overflow-hidden pt-24 relative z-10 px-4 lg:px-56 lg:max-h-screen bg-[#090119]">
+        <section class="lg:min-h-screen overflow-hidden pt-16 px-4 lg:px-56 bg-[#090119]">
             <div class="container">
-                <p className="text-center leading-relaxed text-base uppercase text-pink-700 font-bold">Contact me</p>
-                <h2 class="text-center text-white mb-6 uppercase font-bold text-[32px]">
+                <p className="text-center leading-relaxed text-base uppercase text-pink-700 mb-4 font-bold animate__animated animate__zoomIn animate__slow">Contact me</p>
+                <h2 class="text-center text-white mb-20 uppercase font-bold text-2xl md:text-3xl lg:text-[32px] animate__animated animate__zoomIn animate__slow">
                     GET IN TOUCH WITH me
                 </h2>
                 <div class="flex flex-wrap lg:justify-between">
-                    <div class="border-l-[5px] border-l-pink-700 w-full lg:w-1/2 xl:w-5/12 mb-24 lg:mx-0 shadow-lg shadow-slate-800  rounded">
+                    <div class="animate__animated animate__fadeInLeft animate__slow border-l-[5px] border-l-pink-700 w-full lg:w-1/2 xl:w-5/12 mb-24 lg:mx-0 shadow-lg shadow-slate-800  rounded">
                         <div class="max-w-[570px]">
                             <div class="flex mb-8 max-w-[370px] w-full pt-16">
                                 <div
@@ -158,7 +157,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div class="w-full lg:w-1/2 xl:w-5/12  lg:mx-0 mb-12 mt-12 lg:mt-0">
-                        <div class="border-l-[5px] border-l-pink-700 relative p-8 lg:p-12 shadow-slate-800   rounded shadow-lg">
+                        <div class="animate__animated animate__fadeInRight animate__slow border-l-[5px] border-l-pink-700 relative p-8 lg:p-12 shadow-slate-800   rounded shadow-lg">
                             <form ref={form} onSubmit={sendEmail}>
                                 <div class="mb-3">
                                     <input
