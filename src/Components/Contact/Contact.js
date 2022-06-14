@@ -17,7 +17,7 @@ const Contact = () => {
     };
     return (
         <section class="lg:min-h-screen overflow-hidden pt-16 px-4 lg:px-56 bg-[#090119]">
-            <div class="container">
+            <div class="">
                 <p className="text-center leading-relaxed text-base uppercase text-pink-700 mb-4 font-bold animate__animated animate__zoomIn animate__slow">Contact me</p>
                 <h2 class="text-center text-white mb-20 uppercase font-bold text-2xl md:text-3xl lg:text-[32px] animate__animated animate__zoomIn animate__slow">
                     GET IN TOUCH WITH me

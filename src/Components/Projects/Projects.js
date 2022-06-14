@@ -1,12 +1,7 @@
 import React from "react";
+import './styles.css'
 import { FiExternalLink } from 'react-icons/fi';
 import { AiFillGithub } from 'react-icons/ai';
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination } from "swiper";
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import "./styles.css";
 
 const Projects = () => {
     return (
@@ -15,24 +10,10 @@ const Projects = () => {
             <h2 class="text-center text-white uppercase font-bold text-2xl md:text-3xl lg:text-[32px] animate__animated animate__zoomIn animate__slow">
                 My recent works
             </h2>
-            <>
-                <Swiper
-                    effect={"coverflow"}
-                    grabCursor={true}
-                    centeredSlides={true}
-                    slidesPerView={"auto"}
-                    coverflowEffect={{
-                        rotate: 50,
-                        stretch: 0,
-                        depth: 100,
-                        modifier: 1,
-                        slideShadows: true,
-                    }}
-                    pagination={true}
-                    modules={[EffectCoverflow, Pagination]}
-                    className="mySwiper"
-                >
-                    <SwiperSlide>
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 px-10">
+                <div class="card h-[600px] p-4 w-full sm:mb-12 lg:mb-0 animate__animated animate__zoomIn animate__slow">
+                    <div class="box">
+                        <div class="p-[5px] text-justify">
                         <div className="shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
                             <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/zFZyYzS/Screenshot-2.jpg" alt="blog" />
                             <div className="p-6">
@@ -41,14 +22,19 @@ const Projects = () => {
                                 <p className="leading-relaxed mt-1 mb-5 text-white">This is a menufacturer website. In this website implemented a user-friendly responsive landing page and react routing, signup, signout authentication, payment gateway and MongoDB CRUD operation for products add, manage, and make admin system.
                                 </p>
                                 <div className="flex">
-                                    <a href="https://github.com/arfat132/screwbeat-client-side" className="mt-2 text-pink-700 text-4xl uppercase"><AiFillGithub /></a>
-                                    <a href="https://github.com/arfat132/screwbeat-server-side" className="mt-2 text-pink-700 text-4xl uppercase ml-3"><AiFillGithub /></a>
-                                    <a href="https://screwbeat-auth.web.app/" className="mt-2 text-pink-700 text-4xl uppercase ml-3"><FiExternalLink /></a>
+                                    <a href="https://github.com/arfat132/screwbeat-client-side" className="mt-1 text-pink-700 text-4xl uppercase"><AiFillGithub /></a>
+                                    <a href="https://github.com/arfat132/screwbeat-server-side" className="mt-1 text-pink-700 text-4xl uppercase ml-3"><AiFillGithub /></a>
+                                    <a href="https://screwbeat-auth.web.app/" className="mt-1 text-pink-700 text-4xl uppercase ml-3"><FiExternalLink /></a>
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card h-[600px] p-4 w-full sm:mb-12 lg:mb-0 animate__animated animate__zoomIn animate__slow">
+                    <div class="box">
+                        <div class="p-[5px] text-justify">
                         <div className="shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
                             <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/0f5kvw8/Screenshot-1.jpg" alt="blog" />
                             <div className="p-6">
@@ -63,8 +49,14 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="card p-4 w-full relative sm:mb-12 lg:mb-0 animate__animated animate__zoomIn animate__slow">
+                    <div class="box">
+                        <div class="p-[5px] text-justify">
                         <div className="shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
                             <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/R27zXsw/Screenshot-2.jpg" alt="blog" />
                             <div className="p-6">
@@ -78,8 +70,13 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card h-[600px] p-4 w-full relative sm:mb-12 lg:mb-0 animate__animated animate__zoomIn animate__slow">
+                    <div class="box">
+                        <div class="p-[5px] text-justify">
                         <div className="shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
                             <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/ygf3p05/Screenshot-1.jpg" alt="blog" />
                             <div className="p-6">
@@ -93,8 +90,13 @@ const Projects = () => {
                                </div>
                             </div>
                         </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card h-[600px] p-4 w-full relative sm:mb-12 lg:mb-0 animate__animated animate__zoomIn animate__slow">
+                    <div class="box">
+                        <div class="p-[5px] text-justify">
                         <div className="shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
                             <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/D4S6qfP/Screenshot-3.jpg" alt="blog" />
                             <div className="p-6">
@@ -108,9 +110,29 @@ const Projects = () => {
                                </div>
                             </div>
                         </div>
-                    </SwiperSlide>
-                </Swiper>
-            </>
+                        </div>
+                    </div>
+                </div>
+                <div class="card h-[600px] p-4 w-full relative sm:mb-12 lg:mb-0 animate__animated animate__zoomIn animate__slow">
+                    <div class="box">
+                        <div class="p-[5px] text-justify">
+                        <div className="shadow-lg shadow-gray-800 border-opacity-60 rounded-lg overflow-hidden">
+                            <img className="lg:h-60 md:h-36 w-full object-cover object-center" src="https://i.ibb.co/D4S6qfP/Screenshot-3.jpg" alt="blog" />
+                            <div className="p-6">
+                                <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">HTML CSS MEDIA QUERY</h2>
+                                <h1 className="title-font text-xl font-bold text-pink-700">Influencer Products</h1>
+                                <p className="leading-relaxed mt-1 mb-5 text-white">This is a influencer products website. In this website implemented a user-friendly responsive landing page with media query.
+                                </p>
+                                <div className="flex">
+                                <a href="https://github.com/arfat132/influencer-product" className="mt-2 text-pink-700 text-4xl uppercase"><AiFillGithub /></a>
+                                <a href="https://arfat132.github.io/influencer-product/" className="mt-2 text-pink-700 text-4xl uppercase ml-2"><FiExternalLink /></a>
+                               </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

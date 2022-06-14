@@ -5,7 +5,7 @@ import 'animate.css';
 const About = () => {
     return (
         <section class="body-font pt-12 lg:pt-40 lg:min-h-screen overflow-hidden bg-[#090119]">
-            <div class="container mx-auto">
+            <div class="mx-auto">
                 <div class="lg:w-4/5 mx-auto flex flex-wrap-reverse lg:flex-nowrap">
                     <div class="lg:w-1/2 w-full lg:py-6 mb-6 lg:mb-0 px-8 lg:px-0">
                         <h1 className='text-4xl font-semibold text-pink-700 mb-3 uppercase animate__animated animate__fadeInDown animate__fast'>About me</h1>
