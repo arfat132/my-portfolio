@@ -10,13 +10,13 @@ const Projects = () => {
             <h2 class="text-center text-white uppercase font-bold text-2xl md:text-3xl lg:text-[32px] animate__animated animate__zoomIn animate__slow">
                 My recent works
             </h2>
-            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 justify-center items-center lg:px-20 px-4 overflow-hidden w-full pb-24 lg:pb-0">
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 justify-center items-center lg:px-20 px-2 overflow-hidden w-full pb-24 lg:pb-0">
                 <div class="card h-[600px] lg:h-[650px] sm:mb-12 lg:mb-0 animate__animated animate__zoomIn animate__slow">
                     <div class="box shadow-lg shadow-gray-800 border-opacity-60">
-                        <div class="p-[5px] text-justify">
+                        <div class="p-[5px] lg:text-justify">
                         <div className="rounded-lg overflow-hidden">
                             <img className="lg:h-60 h-36 object-cover object-center" src="https://i.ibb.co/zFZyYzS/Screenshot-2.jpg" alt="blog" />
-                            <div className="p-6">
+                            <div className="p-3">
                                 <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">React Tailwind Firebase Express MongoDB stripe</h2>
                                 <h1 className="title-font text-xl font-bold text-pink-700">Screwbeat</h1>
                                 <p className="text-sm lg:text-lg mt-1 mb-5 text-white">This is a menufacturer website. In this website implemented a user-friendly responsive landing page and react routing, signup, signout authentication, payment gateway and MongoDB CRUD operation for products add, manage, and make admin system.
@@ -34,10 +34,10 @@ const Projects = () => {
 
                 <div class="card h-[600px] lg:h-[650px] sm:mb-12 lg:mb-0 animate__animated animate__zoomIn animate__slow">
                     <div class="box shadow-lg shadow-gray-800 border-opacity-60">
-                        <div class="p-[5px] text-justify">
+                        <div class="p-[5px] lg:text-justify">
                         <div className=" rounded-lg overflow-hidden">
                             <img className="lg:h-60 h-36 w-full object-cover object-center" src="https://i.ibb.co/0f5kvw8/Screenshot-1.jpg" alt="blog" />
-                            <div className="p-6">
+                            <div className="p-3">
                                 <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">React Tailwind Firebase Express MongoDB</h2>
                                 <h1 className="title-font text-xl font-bold text-pink-700">Quanta</h1>
                                 <p className="text-sm lg:text-lg mt-1 mb-5 text-white">This is a warehouse management website. In this website implemented a user-friendly responsive landing page and react routing, signup, signout authentication method and MongoDB CRUD operation for inventory add, restock, delivery system.
@@ -56,10 +56,10 @@ const Projects = () => {
                 
                 <div class="card  h-[600px] lg:h-[650px] relative sm:mb-12 lg:mb-0 animate__animated animate__zoomIn animate__slow">
                     <div class="box shadow-lg shadow-gray-800 border-opacity-60">
-                        <div class="p-[5px] text-justify">
+                        <div class="p-[5px] lg:text-justify">
                         <div className="rounded-lg overflow-hidden">
                             <img className="lg:h-60 h-36 w-full object-cover object-center" src="https://i.ibb.co/R27zXsw/Screenshot-2.jpg" alt="blog" />
-                            <div className="p-6">
+                            <div className="p-3">
                                 <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">React React Router Tailwind Firebase</h2>
                                 <h1 className="title-font text-xl font-bold text-pink-700">Core Realator</h1>
                                 <p className="text-sm lg:text-lg mt-1 mb-5 text-white">This is a menufacturer website. In this website implemented a user-friendly responsive landing page and react routing, signup, signout authentication, payment gateway and MongoDB CRUD operation for products add, manage, and make admin system.
@@ -76,10 +76,10 @@ const Projects = () => {
                 
                 <div class="card h-[600px] lg:h-[650px] relative sm:mb-12 lg:mb-0 animate__animated animate__zoomIn animate__slow">
                     <div class="box shadow-lg shadow-gray-800 border-opacity-60">
-                        <div class="p-[5px] text-justify">
+                        <div class="p-[5px] lg:text-justify">
                         <div className="  rounded-lg overflow-hidden">
                             <img className="lg:h-60 h-36 w-full object-cover object-center" src="https://i.ibb.co/ygf3p05/Screenshot-1.jpg" alt="blog" />
-                            <div className="p-6">
+                            <div className="p-3">
                                 <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">HTML CSS BOOTSTRAP</h2>
                                 <h1 className="title-font text-xl font-bold text-pink-700">Elite convention</h1>
                                 <p className="text-sm lg:text-lg mt-1 mb-5 text-white">This is a wedding convention website. In this website implemented a user-friendly responsive landing page with bootsrap 5, a event packaging section and a frequently asked question section.
@@ -96,10 +96,10 @@ const Projects = () => {
                 
                 <div class="card h-[600px] lg:h-[650px] relative sm:mb-12 lg:mb-0 animate__animated animate__zoomIn animate__slow">
                     <div class="box shadow-lg shadow-gray-800 border-opacity-60">
-                        <div class="p-[5px] text-justify">
+                        <div class="p-[5px] lg:text-justify">
                         <div className="h-full shadow-lg border-opacity-60 rounded-lg overflow-hidden">
                             <img className="lg:h-60 h-36 w-full object-cover object-center" src="https://i.ibb.co/D4S6qfP/Screenshot-3.jpg" alt="blog" />
-                            <div className="p-6">
+                            <div className="p-3">
                                 <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">HTML CSS MEDIA QUERY</h2>
                                 <h1 className="title-font text-xl font-bold text-pink-700">Influencer Products</h1>
                                 <p className="text-sm lg:text-lg mt-1 mb-5 text-white">This is a influencer products website. In this website implemented a user-friendly responsive landing page with media query.
@@ -115,10 +115,10 @@ const Projects = () => {
                 </div>
                 <div class="card h-[600px] lg:h-[650px] relative sm:mb-12 lg:mb-0 animate__animated animate__zoomIn animate__slow">
                     <div class="box shadow-lg shadow-gray-800 border-opacity-60">
-                        <div class="p-[5px] text-justify">
+                        <div class="p-[5px] lg:text-justify">
                         <div className="rounded-lg overflow-hidden">
                             <img className="lg:h-60 h-36 w-full object-cover object-center" src="https://i.ibb.co/D4S6qfP/Screenshot-3.jpg" alt="blog" />
-                            <div className="p-6">
+                            <div className="p-3">
                                 <h2 className="tracking-widest text-xs title-font font-bold text-white mb-3">HTML CSS MEDIA QUERY</h2>
                                 <h1 className="title-font text-xl font-bold text-pink-700">Influencer Products</h1>
                                 <p className="text-sm lg:text-lg mt-1 mb-5 text-white">This is a influencer products website. In this website implemented a user-friendly responsive landing page with media query.

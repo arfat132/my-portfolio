@@ -146,6 +146,13 @@
 }
 
 /* FX All The Things */ 
+/* FX All The Things */ 
+[tooltip]:not([flow]):hover::before,
+[tooltip]:not([flow]):hover::after,
+[tooltip][flow^="up"]:hover::before,
+[tooltip][flow^="up"]:hover::after {
+  animation: tooltips-vert 300ms ease-out forwards;
+}
 [tooltip][flow^="left"]:hover::before,
 [tooltip][flow^="left"]:hover::after {
   animation: tooltips-horz 300ms ease-out forwards;

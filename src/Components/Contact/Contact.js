@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
+import { TbSend } from 'react-icons/tb';
+
 const Contact = () => {
     const form = useRef();
 
@@ -250,9 +252,10 @@ const Contact = () => {
                                 p-3
                                 transition
                                 hover:bg-opacity-90
-                                "
-                                    >
-                                        Send Message
+                                font-medium text-2xl
+                                flex items-center justify-center"
+                                                        >
+                                        Send Message<TbSend className='text-2xl ml-2'/>
                                     </button>
                                 </div>
                             </form>
