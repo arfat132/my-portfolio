@@ -11,7 +11,19 @@ import '../Projects/Projects'
 
 const Navbar = () => {
     return (
-        <div class="bg-[#090119] border border-1 border-pink-700 text-pink-700 py-6 lg:w-18  right-0 z-50 rounded-full fixed my-56 mr-3">
+        <div>
+            <div class="bg-[#090119] border block md:hidden xl:hidden lg:hidden mt-12 border-1 border-pink-700 text-pink-700 py-4  bottom-0 z-50 w-full fixed">
+            <ul class="navbar-end w-full flex justify-between px-10">
+                <li><Link to="/" tooltip="Home" flow="up"><FaHome className='text-2xl lg:text-4xl' /></Link></li>
+                <li><Link to="/about" tooltip="About" flow="up"><FaUserGraduate className='text-2xl lg:text-4xl' /></Link></li>
+                <li><Link to="/skills" tooltip="Skills" flow="up"><HiOutlineLightBulb className='text-2xl lg:text-4xl' /></Link></li>
+                <li><Link to="/services" tooltip="Services" flow="up"><VscServerProcess className='text-2xl lg:text-4xl' /></Link></li>
+                <li><Link to="/projects" tooltip="Projects" flow="up"><MdWork className='text-2xl lg:text-4xl' /></Link></li>
+                <li><Link to="/blogs" tooltip="Blogs" flow="up"><FaBlog className='text-2xl lg:text-3xl' /></Link></li>
+                <li><Link to="/contact" tooltip="Contact" flow="up"><BiMessageRoundedDots className='text-2xl lg:text-4xl' /></Link></li>
+            </ul>
+        </div>
+             <div class="bg-[#090119] border hidden lg:block border-1 border-pink-700 text-pink-700 py-6 lg:w-18  right-0 z-50 rounded-full fixed my-36 lg:my-56 mr-3">
             <ul class="navbar-end w-full">
                 <li><Link to="/" tooltip="Home" flow="left"><FaHome className='text-2xl lg:text-4xl m-4' /></Link></li>
                 <li><Link to="/about" tooltip="About" flow="left"><FaUserGraduate className='text-2xl lg:text-4xl m-4' /></Link></li>
@@ -22,6 +34,7 @@ const Navbar = () => {
                 <li><Link to="/contact" tooltip="Contact" flow="left"><BiMessageRoundedDots className='text-2xl lg:text-4xl m-4' /></Link></li>
             </ul>
         </div>
+       </div>
     );
 };
 

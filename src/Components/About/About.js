@@ -13,7 +13,7 @@ const About = () => {
                         <p className='mt-4 mb-10 text-white text-justify animate__animated animate__fadeInUp animate__fast'> For the last 1 year, I am also working as a full-stack developer with back-end technologies like Node js, Express I am highly motivated and I love to get work done in a quick manner. I love learning new skills and I am excited to work with clients. Drop a message and let's get started. I am also available for permanent work.</p>
                         <button> <a href="https://drive.google.com/uc?id=1Yr48N1H5T5-aJkeI3rqARSq7WTRpXQWO&export=download" download className='animate__animated animate__fadeInUp animate__fast flex items-center border border-1 border-pink-700 px-6 py-3 text-pink-700'>DownLoad Resume<GoCloudDownload className='ml-3' /></a></button>
                         <div>
-                            <span class="inline-flex mt-12">
+                            <span class="inline-flex mt-12 mb-24 lg:mb-0">
                                 <a href="https://www.facebook.com/arfat.akter.98/" class="animate__animated animate__fadeInUp animate__fast text-pink-700 border-2 border-pink-700 p-2">
                                     <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                                         <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
@@ -37,7 +37,7 @@ const About = () => {
                         </div>
                     </div>
                     <div class="lg:w-1/2 w-full lg:pl-24 lg:py-6 mb-16 lg:mb-0 mx-auto animate__animated animate__fadeInRight animate__slow">
-                        <img alt="ecommerce" class="w-96 shadow-lg border-t  border-t-pink-700 shadow-pink-700 px-12 pt-12 mx-auto lg:h-auto object-cover object-center rounded" src="https://i.ibb.co/sQ3JhwJ/me.png" />
+                        <img alt="ecommerce" class="lg:w-96 w-80 shadow-lg border-t  border-t-pink-700 shadow-pink-700 px-12 pt-12 mx-auto lg:h-auto object-cover object-center rounded" src="https://i.ibb.co/sQ3JhwJ/me.png" />
                     </div>
                 </div>
             </div>

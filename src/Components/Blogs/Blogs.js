@@ -8,7 +8,7 @@ const Blogs = () => {
                 My recent Blogs
             </h2>
             <div className='' >
-                <h1 className='animate__animated animate__fadeInUpBig animate__slow text-center pt-56 text-4xl font-bold text-pink-700'>Coming soon...............</h1>
+                <h1 className='animate__animated animate__fadeInUpBig animate__slow text-center pt-28 lg:pt-56 text-4xl px-4 font-bold text-pink-700'>Coming soon...............</h1>
             </div>
         </div>
     );

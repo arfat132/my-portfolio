@@ -19,10 +19,10 @@ const Contact = () => {
         <section class="lg:min-h-screen overflow-hidden pt-16 px-4 lg:px-56 bg-[#090119]">
             <div class="">
                 <p className="text-center leading-relaxed text-base uppercase text-pink-700 mb-4 font-bold animate__animated animate__zoomIn animate__slow">Contact me</p>
-                <h2 class="text-center text-white mb-20 uppercase font-bold text-2xl md:text-3xl lg:text-[32px] animate__animated animate__zoomIn animate__slow">
+                <h2 class="text-center text-white mb-10 lg:mb-20 uppercase font-bold text-2xl md:text-3xl lg:text-[32px] animate__animated animate__zoomIn animate__slow">
                     GET IN TOUCH WITH me
                 </h2>
-                <div class="flex flex-wrap lg:justify-between">
+                <div class="flex flex-wrap lg:justify-between pb-24 lg:pb-0">
                     <div class="animate__animated animate__fadeInLeft animate__slow border-l-[5px] border-l-pink-700 w-full lg:w-1/2 xl:w-5/12 mb-12 lg:mx-0 shadow-lg shadow-slate-800  rounded">
                         <div class="max-w-[570px]">
                             <div class="flex mb-8 max-w-[370px] w-full pt-16">
