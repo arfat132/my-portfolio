@@ -23,7 +23,7 @@ const Contact = () => {
                     GET IN TOUCH WITH me
                 </h2>
                 <div class="flex flex-wrap lg:justify-between">
-                    <div class="animate__animated animate__fadeInLeft animate__slow border-l-[5px] border-l-pink-700 w-full lg:w-1/2 xl:w-5/12 mb-24 lg:mx-0 shadow-lg shadow-slate-800  rounded">
+                    <div class="animate__animated animate__fadeInLeft animate__slow border-l-[5px] border-l-pink-700 w-full lg:w-1/2 xl:w-5/12 mb-12 lg:mx-0 shadow-lg shadow-slate-800  rounded">
                         <div class="max-w-[570px]">
                             <div class="flex mb-8 max-w-[370px] w-full pt-16">
                                 <div
@@ -129,7 +129,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div>
-                                <span class="inline-flex mt-11 lg:px-40 px-0 mb-16">
+                                <span class="inline-flex mt-11 pl-12 lg:px-40 px-0 mb-16">
                                     <Link to="/" class="text-pink-700 border-2 border-pink-700 p-2">
                                         <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                                             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
