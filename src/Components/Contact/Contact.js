@@ -18,10 +18,10 @@ const Contact = () => {
         e.target.reset();
     };
     return (
-        <section class="lg:min-h-screen overflow-hidden pt-16 px-4 lg:px-56 bg-[#090119]">
+        <section class="lg:min-h-screen overflow-hidden pt-10 px-4 lg:px-56 bg-[#090119]">
             <div class="">
                 <p className="text-center leading-relaxed text-base uppercase text-pink-700 mb-4 font-bold animate__animated animate__zoomIn animate__slow">Contact me</p>
-                <h2 class="text-center text-white mb-10 lg:mb-20 uppercase font-bold text-2xl md:text-3xl lg:text-[32px] animate__animated animate__zoomIn animate__slow">
+                <h2 class="text-center text-white mb-10 lg:mb-16 uppercase font-bold text-2xl md:text-3xl lg:text-[32px] animate__animated animate__zoomIn animate__slow">
                     GET IN TOUCH WITH me
                 </h2>
                 <div class="flex flex-wrap lg:justify-between pb-24 lg:pb-0">
@@ -131,7 +131,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div>
-                                <span class="inline-flex mt-11 pl-12 lg:px-40 px-0 mb-16">
+                                <span class="inline-flex mt-11 pl-12 lg:px-28 px-0 mb-16">
                                     <Link to="/" class="text-pink-700 border-2 border-pink-700 p-2">
                                         <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                                             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
